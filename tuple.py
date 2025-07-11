@@ -35,4 +35,4 @@ if len(item) > 0:
 #now destructurt it
 (u,m,n) = item
 print(u)
-print(u,m,n)
+print(u,m,n) 

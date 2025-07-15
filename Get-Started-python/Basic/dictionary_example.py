@@ -17,7 +17,7 @@ person = {
 # Method 1: Direct access (when you're sure keys exist)
 print("\nMethod 1: Direct access")
 try:
-    print(f"Street: {person['address']['details']['street']}")
+    print(f"Street: {person['address']['details']['sajid']}")
 except KeyError as e:
     print(f"Key not found: {e}")
 

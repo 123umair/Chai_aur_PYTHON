@@ -1,0 +1,103 @@
+Q1️⃣
+Print the name of the lead of the Backend team at TechNova.
+
+Expected output: "Alice"
+
+Q2️⃣
+Print the list of members in the Backend team.
+
+Expected output: ["Bob", "Charlie", "David"]
+
+Q3️⃣
+Print the budget of the API Revamp project.
+
+Expected output: 120000
+
+Q4️⃣
+What is the status of the Auth Service project?
+
+Expected output: "Completed"
+
+Q5️⃣
+Print the milestones dictionary of the API Revamp project.
+
+Expected output:
+{
+    "design": "Completed",
+    "development": "In Progress",
+    "testing": "Pending"
+}
+Q6️⃣
+Print the name of the lead of the Frontend team.
+
+Expected output: "Eve"
+
+Q7️⃣
+Print the name of the head of the HR department.
+
+Expected output: "Mallory"
+
+Q8️⃣
+How many days of annual leave are there in the HR policies?
+
+Expected output: 20
+
+Q9️⃣
+Print the list of open positions in HR recruitment.
+
+Expected output: ["Data Scientist", "DevOps Engineer"]
+
+Q🔟
+How many employees are there in the New York office?
+
+Expected output: 100
+
+Q1️⃣1️⃣
+Print the name of the city of the second office.
+
+Expected output: "Berlin"
+
+Q1️⃣2️⃣
+Print the list of stock prices for the year 2023.
+
+Expected output: [130.2, 128.0, 135.5]
+
+Q1️⃣3️⃣
+Print a list of the project names in the Backend team.
+
+Expected output: ["API Revamp", "Auth Service"]
+
+Q1️⃣4️⃣
+What is the status of the testing milestone in the Auth Service project?
+
+Expected output: "Completed"
+
+Q1️⃣5️⃣
+Print a list of the cities for all offices.
+
+Expected output: ["New York", "Berlin"]
+
+Q1️⃣6️⃣
+Print the status of the development milestone for the first project of the Backend team.
+
+Expected output: "In Progress"
+
+Q1️⃣7️⃣
+Print the steps in the HR recruitment interview process.
+
+Expected output: ["Screening", "Technical Round", "HR Round"]
+
+Q1️⃣8️⃣
+Is the company public? (Print True/False)
+
+Expected output: True
+
+Q1️⃣9️⃣
+Print all department names (e.g. Engineering, HR).
+
+Expected output: ["Engineering", "HR"]
+
+Q2️⃣0️⃣
+Print the value of the partners field in the company dictionary.
+
+Expected output: None

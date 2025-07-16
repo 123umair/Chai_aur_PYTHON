@@ -1,4 +1,4 @@
-
+# Solve these 20 questions on this API
 complex_dict = {
     "company": "TechNova",
     "founded": 2010,
@@ -215,3 +215,7 @@ print(list_complex_dict)
 # Expected output: None
 
 print(complex_dict["partners"])  # Successfully attempt
+
+
+
+# Completed

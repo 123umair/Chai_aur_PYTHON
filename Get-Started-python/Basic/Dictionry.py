@@ -22,5 +22,15 @@
 # # first_Dic.clear()
 # # print(first_Dic) #clear all the dictionary from the item
 
+# WAP to enter the marks of 3 subjects from the user and store them in a dictionary. Start with an empty dictionary and add one by one. Uss subject name as key and marks as value.
 
 
+
+emtpy_dictionary = {}
+x = int(input("Enter Score : "))
+emtpy_dictionary.update({"physics": x}) 
+x = int(input("Enter Score : "))
+emtpy_dictionary.update({"Maths": x}) 
+x = int(input("Enter Score : "))
+emtpy_dictionary.update({"Chemistry": x}) 
+print(emtpy_dictionary)

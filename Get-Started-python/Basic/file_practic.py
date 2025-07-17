@@ -8,8 +8,6 @@
 
 # Search if the word "learning" exists in the file or not.
 
-from operator import truediv
-
 
 f=open("practice.txt",'w')
 write = f.write("Hi everyone \nwe are learning File I/O\nusing Java.\nI like programming in Java.")
@@ -76,8 +74,6 @@ with open("numbers.txt",'r') as f:
         if(int(val) % 2 == 0):
             count += 1
 print(count)
-
-    
     
     
     

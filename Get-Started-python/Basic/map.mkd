@@ -1,0 +1,44 @@
+# Map Function in Python
+
+The `map()` function in Python is used to apply a specific function to each element of an iterable (like a **list, tuple, or set**) and returns a **map object** (which is an **iterator**).
+
+---
+
+## Syntax of the `map()` function
+```python
+map(function, iterable)
+Clarifying Iterable vs Iterator
+Iterable:
+An object that can be looped over (like a list, tuple, string, etc.). You can use it in a for loop.
+Example: [1, 2, 3], "hello"
+
+Iterator:
+An object that returns elements one at a time using the next() function. Iterators keep track of where they are in the sequence.
+Example: The object returned by iter([1, 2, 3]).
+
+Basic Example
+Let’s start with a simple example of using map() to convert a list of strings into a list of integers.
+
+python
+Copy
+Edit
+s = ['1', '2', '3', '4', '5']
+
+check = map(int, s)
+
+print(check)          # <map object at 0x000001D2B32DB940>
+print(list(check))    # [1, 2, 3, 4, 5]
+Converting Map Object to a List
+By default, map() returns a map object, which is an iterator.
+In many cases, we need to convert this iterator into a list to work with the results directly.
+
+python
+Copy
+Edit
+result = list(map(int, s))
+print(result)   # [1, 2, 3, 4, 5]
+
+
+
+
+

@@ -1,0 +1,62 @@
+
+
+````markdown
+## filter() in Python
+
+
+The **filter()** function is used to extract elements from an iterable (like a list, tuple, or set) that satisfy a given condition.  
+It works by applying a function to each element and keeping only those for which the function returns `True`.
+
+---
+
+## 🔹 Syntax
+```python
+filter(function, iterable)
+````
+
+---
+
+## 🔹 Parameters
+
+* **function**: A function that tests each element.
+
+  * Returns `True` → Keep the element
+  * Returns `False` → Discard the element
+* **iterable**: Any iterable (list, tuple, set, etc.).
+
+---
+
+## 🔹 Return Value
+
+A **filter object** (an iterator), which can be converted into a list, tuple, set, etc.
+
+---
+
+## 🔹 Example 1: Using `filter()` with a Named Function
+
+This code defines a regular function to check if a number is even and then uses `filter()` to extract all even numbers from a list.
+
+```python
+def even(n):
+    return n % 2 == 0
+
+a = [1, 2, 3, 4, 5, 6]
+b = filter(even, a)
+print(list(b))  # Convert filter object to a list
+```
+
+### ✅ Output
+
+```
+[2, 4, 6]
+```
+
+---
+
+## 🔹 Explanation
+
+1. `even` function checks if a number is divisible by 2.
+2. `filter()` applies this function to each item in `a`.
+3. Only even numbers are included in the output.
+
+```

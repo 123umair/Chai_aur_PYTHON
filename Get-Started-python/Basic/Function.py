@@ -47,7 +47,7 @@ len_List(list)
 # Recurssion is the function that call itself
 #This is recursive function
 def show(n):
-    if(n == 0): #This is basecase if this is not then the function will b paused in a infinite loop 
+    if(n == 0): # This is base case if this is not then the function will b paused in a infinite loop 
         return
     print(n)
     show(n-1)
